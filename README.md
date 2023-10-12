@@ -22,3 +22,26 @@ The task involves creating a RESTful API to manage a simple todo list applicatio
 In summary, using AI for this task was beneficial as it significantly accelerated the initial setup of the Spring Boot application, but some additional manual configuration and troubleshooting were required to make the code fully functional. The generated code provided a solid foundation for building the RESTful API for the todo list application.
 
 Feel free to adapt this README for your documentation and add any specific details or instructions as needed.
+
+
+## Prerequisites
+
+Make sure you have the following installed before running the project:
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) 8 or higher
+- [Maven](https://maven.apache.org/download.cgi) (optional but recommended for dependency management)
+
+## Setup
+
+1. Clone this repository on your local machine
+
+2.  Navigate to the project directory:
+
+3. Open the database configuration file (`application.properties` or `application.yml`) in the `src/main/resources` folder and configure the database properties according to your needs.
+
+4. (Optional) If you're using Maven, update the project dependencies.
+5. Package:
+   mvn clean package
+6. Run
+   go to target and java -jar ./.jar
+   
